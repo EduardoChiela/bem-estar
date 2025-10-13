@@ -16,15 +16,15 @@ $output = fopen("php://output", "w");
 fputcsv($output, [
     'ID',
     'Vinculo',
-    'mudar',
-    'Preços',
-    'Atendimento',
-    'Comentários',
+    'emocao_hj',
+    'emocao_reco',
+    'ultima_emocao',
+    'causa',
     'Data da Avaliação',
 ], ';'); // usa ponto e vírgula como separador
 
 // Busca dados do banco
-$sql = "SELECT id, Vinculo, mudar, precos, atendimento, comentarios, data_avaliacao, id_usuario 
+$sql = "SELECT id, Vinculo, emocao_hj, emocao_reco, ultima_emocao, causa, data_avaliacao, id_usuario 
         FROM avaliacoes
         ORDER BY data_avaliacao DESC";
 
