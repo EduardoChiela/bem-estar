@@ -8,17 +8,17 @@
 }
 
 :root {
-    --primary: #6366F1;
-    --primary-light: #818CF8;
-    --primary-dark: #4F46E5;
+    --primary: #700202;
+    --primary-light: #700202;
+    --primary-dark: #700202;
     --secondary: #F59E0B;
     --success: #10B981;
     --error: #EF4444;
     --warning: #F59E0B;
     
-    --bg-main: #F8FAFC;
-    --bg-card: #FFFFFF;
-    --bg-light: #F1F5F9;
+    --bg-main: #02ff74;
+    --bg-card: #f0d803;
+    --bg-light: #ea00ff;
     
     --text-primary: #1E293B;
     --text-secondary: #64748B;
@@ -53,7 +53,7 @@ body {
 /* Header Moderno */
 .app-header {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: white;
+    color: #ffed94;
     padding: 2.5rem 1.5rem 3rem;
     position: relative;
     overflow: hidden;
@@ -215,7 +215,7 @@ body {
     width: 3rem;
     height: 3rem;
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -327,7 +327,7 @@ body {
 .cantina-option.selected .check-mark {
     background: var(--primary);
     border-color: var(--primary);
-    color: white;
+    color: #ffed94;
 }
 
 /* Cards de Avaliação */
@@ -420,7 +420,7 @@ body {
 
 .emoji-option.selected .emoji-content {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: white;
+    color: rgb(255, 255, 255);
     transform: translateY(-3px);
     box-shadow: var(--shadow-lg);
     border-color: var(--primary);
@@ -432,7 +432,7 @@ body {
 }
 
 .emoji-option.selected .emoji-content .label {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
@@ -493,7 +493,7 @@ body {
 .submit-btn {
     width: 100%;
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: white;
+    color: #ffed94;
     border: none;
     border-radius: var(--border-radius);
     padding: 1.25rem 2rem;
@@ -648,11 +648,11 @@ body {
 /* Dark mode support (opcional) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-main: #0F172A;
-        --bg-card: #1E293B;
-        --bg-light: #334155;
-        --text-primary: #F1F5F9;
-        --text-secondary: #CBD5E1;
-        --text-light: #64748B;
+        --bg-main: #541822;
+        --bg-card: #6d1327;
+        --bg-light: #801e2f;
+        --text-primary: #ffed94;
+        --text-secondary: #ffed94;
+        --text-light: #fdcfb3;
     }
 }

@@ -70,7 +70,7 @@ function getUserIP() {
                     </div>
                 </div>
                 <div class="header-subtitle">
-                    Estamos pensando em você! 💜
+                    Estamos pensando em você! 💛
                 </div>
             </div>
             <div class="header-wave"></div>
