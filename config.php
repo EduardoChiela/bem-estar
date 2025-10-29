@@ -1,7 +1,7 @@
 <?php
 // config.php
 $host = 'localhost';
-$dbname = 'db_bemestar';
+$dbname = 'teste';
 $username = 'root';
 $password = '';
 
