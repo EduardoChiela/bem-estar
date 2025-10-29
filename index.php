@@ -310,7 +310,7 @@ function getUserIP() {
             form.addEventListener('submit', function(e) {
               e.preventDefault()
                 // Verificar se todos os campos obrigatórios estão preenchidos
-              const requiredRadios = ['Vinculo', 'emocao_hj', 'emocao_reco', 'ultima_emocao', 'causa'];
+              const requiredRadios = ['Vinculo', 'emocao_hj', 'emocao_reco', 'ultima_emocao'];
               let firstInvalidField = null;
 
               for (let name of requiredRadios) {
