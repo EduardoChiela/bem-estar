@@ -130,6 +130,8 @@ function getUserIP() {
                                 <div class="check-mark"><i class="fas fa-check"></i></div>
                             </div>
                         </label>
+                    </div>
+                </div>
 
                         
                 <!-- Avaliações -->
